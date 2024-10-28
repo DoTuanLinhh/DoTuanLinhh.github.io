@@ -170,7 +170,7 @@ img {
   /* width: 200px; */
   aspect-ratio: 1;
   object-fit: cover;
-  --_m: radial-gradient(#ffffff 69%, #ffffff00 70%) 84.5% fill/100%;
+  --_m: radial-gradient(#ffffff 69%, #ffffff00 0%) 84.5% fill/100%;
   -webkit-mask-box-image: var(--_m);
   mask-border: var(--_m);
   clip-path: polygon(-41% 0, 50% 91%, 141% 0);
