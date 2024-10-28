@@ -175,3 +175,14 @@ img {
   mask-border: var(--_m);
   clip-path: polygon(-41% 0, 50% 91%, 141% 0);
 }
+
+@supports not (-webkit-mask-box-image: var(--_m)) { 
+  img {
+   --_m:
+     radial-gradient(at 70% 31%,var(--c) 29%,#0000 30%),
+     radial-gradient(at 30% 31%,var(--c) 29%,#0000 30%),
+     linear-gradient(#000 0 0) bottom/100% 50% no-repeat;
+   -webkit-mask: var(--_m);
+           mask: var(--_m);
+  }
+}
