@@ -165,8 +165,8 @@ a:hover {
 
 img {
 
-  width: 320px ;
-  height: 320px;
+  width: 500px ;
+  height: 500px;
   aspect-ratio: 1;
   object-fit: cover;
   --_m: radial-gradient(#ffffff 69%, #ffffff00 0%) 84.5% fill/100%;
